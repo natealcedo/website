@@ -128,11 +128,11 @@ Terakhir, tambahkan parameter yang sama ke dalam parameter mulai _server_ API.
     Perhatikan bahwa kamu mungkin perlu menyesuaikan contoh perintah berdasarkan arsitektur
     perangkat keras dan versi cfssl yang kamu gunakan.
 
-        curl -L https://pkg.cfssl.org/R1.2/cfssl_linux-amd64 -o cfssl
+        curl -L https://github.com/cloudflare/cfssl/releases/download/v1.4.1/cfssl_1.4.1_linux_amd64 -o cfssl
         chmod +x cfssl
-        curl -L https://pkg.cfssl.org/R1.2/cfssljson_linux-amd64 -o cfssljson
+        curl -L https://github.com/cloudflare/cfssl/releases/download/v1.4.1/cfssljson_1.4.1_linux_amd64 -o cfssljson
         chmod +x cfssljson
-        curl -L https://pkg.cfssl.org/R1.2/cfssl-certinfo_linux-amd64 -o cfssl-certinfo
+        curl -L https://github.com/cloudflare/cfssl/releases/download/v1.4.1/cfssl-certinfo_1.4.1_linux_amd64 -o cfssl-certinfo
         chmod +x cfssl-certinfo
 1.  Buat direktori untuk menyimpan _artifacts_ dan inisialisasi cfssl:
 

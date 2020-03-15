@@ -216,11 +216,11 @@ Finally, add the same parameters into the API server start parameters.
 1.  按如下所示的方式下载、解压并准备命令行工具。
     注意：你可能需要基于硬件架构和你所使用的 cfssl 版本对示例命令进行修改。
 
-        curl -L https://pkg.cfssl.org/R1.2/cfssl_linux-amd64 -o cfssl
+        curl -L https://github.com/cloudflare/cfssl/releases/download/v1.4.1/cfssl_1.4.1_linux_amd64 -o cfssl
         chmod +x cfssl
-        curl -L https://pkg.cfssl.org/R1.2/cfssljson_linux-amd64 -o cfssljson
+        curl -L https://github.com/cloudflare/cfssl/releases/download/v1.4.1/cfssljson_1.4.1_linux_amd64 -o cfssljson
         chmod +x cfssljson
-        curl -L https://pkg.cfssl.org/R1.2/cfssl-certinfo_linux-amd64 -o cfssl-certinfo
+        curl -L https://github.com/cloudflare/cfssl/releases/download/v1.4.1/cfssl-certinfo_1.4.1_linux_amd64 -o cfssl-certinfo
         chmod +x cfssl-certinfo
 
 <!--

@@ -116,11 +116,11 @@ Por fim, adicione os mesmos parâmetros nos parâmetros iniciais do Servidor de 
 
 1.  Baixe, descompacte e prepare as ferramentas de linha de comando, conforme mostrado abaixo. Observe que você pode precisar adaptar os comandos de exemplo abaixo com base na arquitetura do hardware e versão cfssl que você está usando.
 
-        curl -L https://pkg.cfssl.org/R1.2/cfssl_linux-amd64 -o cfssl
+        curl -L https://github.com/cloudflare/cfssl/releases/download/v1.4.1/cfssl_1.4.1_linux_amd64 -o cfssl
         chmod +x cfssl
-        curl -L https://pkg.cfssl.org/R1.2/cfssljson_linux-amd64 -o cfssljson
+        curl -L https://github.com/cloudflare/cfssl/releases/download/v1.4.1/cfssljson_1.4.1_linux_amd64 -o cfssljson
         chmod +x cfssljson
-        curl -L https://pkg.cfssl.org/R1.2/cfssl-certinfo_linux-amd64 -o cfssl-certinfo
+        curl -L https://github.com/cloudflare/cfssl/releases/download/v1.4.1/cfssl-certinfo_1.4.1_linux_amd64 -o cfssl-certinfo
         chmod +x cfssl-certinfo
 1.  Crie um diretório para conter os artefatos e inicializar o cfssl:
 

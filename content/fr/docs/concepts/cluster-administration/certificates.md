@@ -129,11 +129,11 @@ Enfin, ajoutez les mêmes paramètres aux paramètres de démarrage de l'API Ser
     Notez que vous devrez peut-être adapter les exemples de commandes en fonction du matériel,
     de l'architecture et de la version de cfssl que vous utilisez.
 
-        curl -L https://pkg.cfssl.org/R1.2/cfssl_linux-amd64 -o cfssl
+        curl -L https://github.com/cloudflare/cfssl/releases/download/v1.4.1/cfssl_1.4.1_linux_amd64 -o cfssl
         chmod +x cfssl
-        curl -L https://pkg.cfssl.org/R1.2/cfssljson_linux-amd64 -o cfssljson
+        curl -L https://github.com/cloudflare/cfssl/releases/download/v1.4.1/cfssljson_1.4.1_linux_amd64 -o cfssljson
         chmod +x cfssljson
-        curl -L https://pkg.cfssl.org/R1.2/cfssl-certinfo_linux-amd64 -o cfssl-certinfo
+        curl -L https://github.com/cloudflare/cfssl/releases/download/v1.4.1/cfssl-certinfo_1.4.1_linux_amd64 -o cfssl-certinfo
         chmod +x cfssl-certinfo
 1.  Créez un répertoire pour contenir les artefacts et initialiser cfssl:
 
